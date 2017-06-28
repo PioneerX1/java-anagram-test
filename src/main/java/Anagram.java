@@ -26,4 +26,7 @@ public class Anagram {
       return false;
     }
   }
+  public boolean verifyLandL(String input1, String input2) {
+    return (verifyLength(input1, input2) && verifyLetters(input1, input2));
+  }
 }

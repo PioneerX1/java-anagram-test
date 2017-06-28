@@ -17,5 +17,13 @@ public class AnagramTest {
     assertEquals(expectedOutput, testGame.verifyLetters("coat", "taco"));
   }
 
+  @Test
+  public void verifyLandL_True(){
+    Anagram testGame = new Anagram();
+    boolean expectedOutput = true;
+    assertEquals(expectedOutput, testGame.verifyLandL("coat", "taco"));
+  }
+
+
 
 }
